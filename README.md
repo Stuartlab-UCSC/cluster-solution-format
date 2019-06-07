@@ -5,7 +5,7 @@ specific algorithms such as SC3.
 
 The schema mirrors this data model:
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Data Model")
+![alt text](https://github.com/Stuartlab-UCSC/cluster-solution-format/blob/master/datamodel.png "Data Model")
 
 
 Along with metadata about the cluster solution, 3 major types of information can detail each cluster.
@@ -37,7 +37,6 @@ of the schema to transform the information into data structures ready for compar
 deficit is easy to code around as libraries for parsing the json into analysis structures can be written and tested with
 relative ease.
 
-A best of both worlds solution could implement something similar to [this effort to standardize the mapping of 
-cell annotations to ontology terms](https://github.com/HumanCellAtlas/matrix_semantic_map). It gives an example of 
- integration between a well defined json schema loom files.
+A best of both worlds solution could implement something similar to [this effort to standardize the mapping of  annotations to ontology terms](https://github.com/HumanCellAtlas/matrix_semantic_map). It gives an example of 
+ integration between a well defined json schema and loom files.
 
