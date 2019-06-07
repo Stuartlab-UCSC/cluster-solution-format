@@ -1,5 +1,5 @@
 # cluster-solution-format
-This repo contains a draft specification of a json schema for cluster solutions created from single cell mRNA seq data. 
+This repo contains a draft specification of a [json schema](https://github.com/Stuartlab-UCSC/cluster-solution-format/blob/master/cluster_solution_schema.json) for cluster solutions created from single cell mRNA seq data. 
 A cluster solution is loosely defined as the output of any clustering algorithm, e.g. louvain, k-means, or more domain 
 specific algorithms such as SC3.  
 
@@ -10,7 +10,7 @@ The schema mirrors this data model:
 
 Along with metadata about the cluster solution, 3 major types of information can detail each cluster.
 	
-  * cell assignments: The categorical (or probabalistic) assignment of cells to clusters, i.e. the output of a cluster algorithm.
+  * cell assignments: The categorical assignment of cells to clusters, i.e. the output of a cluster algorithm.
   *	markers: Gene markers for identifying individual clusters.
   *	cell type annotaion: A label that maps a cluster to a cell type.  
 
