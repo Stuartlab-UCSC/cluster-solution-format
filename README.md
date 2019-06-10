@@ -5,7 +5,7 @@ specific algorithms such as SC3.
 
 The schema mirrors this data model:
 
-![alt text](https://github.com/Stuartlab-UCSC/cluster-solution-format/blob/master/datamodel.png "Data Model")
+![alt text](https://github.com/Stuartlab-UCSC/cluster-solution-format/blob/master/datamodel_slide.png "Data Model")
 
 
 Along with metadata about the cluster solution, 3 major types of information can detail each cluster.
