@@ -12,7 +12,7 @@ Along with metadata about the cluster solution, 3 major types of information can
 	
   * cell assignments: The categorical assignment of cells to clusters, i.e. the output of a cluster algorithm.
   *	markers: Gene markers for identifying individual clusters.
-  *	cell type annotaion: A label that maps a cluster to a cell type.  
+  *	cell type annotation: A label that maps a cluster to a cell type.  
 
 Cell assignments is the only type of information required for a valid cluster solution json object.
 
@@ -21,7 +21,7 @@ Cell assignments is the only type of information required for a valid cluster so
 The three main formats that spring to mind are a json specification as represented here, .csv or .tsv files, and loom 
 and other matrix annotation files.
  
-The advantage of tab or comma seperated value files seems to be their ease and readiness to be pulled into analysis 
+The advantage of tab or comma separated value files seems to be their ease and readiness to be pulled into analysis 
 pipelines. Where these formats fail is the ability to track important metadata about the cluster solution, e.g. the 
 algorithm that produced the cluster solution.
 
