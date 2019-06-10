@@ -18,7 +18,7 @@ Cell assignments is the only type of information required for a valid cluster so
 
 #### Some thoughts on other options for formats:
 
-The three main formats that spring to mind are a json specification as represented here, .csv or .tsv files, and loom 
+Three classes of formats that spring to mind are a json specification as represented here, .csv or .tsv files, and loom 
 and other matrix annotation files.
  
 The advantage of tab or comma separated value files seems to be their ease and readiness to be pulled into analysis 
