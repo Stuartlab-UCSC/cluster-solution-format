@@ -44,7 +44,7 @@
           "cells"
         ],
         "properties": {
-          "label": {
+          "name": {
             "description": "The label used to identify a cluster.",
             "type": "string"
           },
@@ -58,8 +58,11 @@
             "items": {
               "type": "object",
               "properties": {
-                "id": {
+                "name": {
                   "type": "string"
+                },
+                "probability": {
+                  "type": "number"
                 }
               },
               "required": [
