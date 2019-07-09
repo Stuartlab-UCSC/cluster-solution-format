@@ -27,9 +27,7 @@ pipelines and language indifferent. Where these formats fail is the ability to t
 Other matrix file formats such as loom or more language specific formats such as Seurat and Scanpy objects are also 
 easily integrated into analysis. While these formats are more general and can carry metadata for cluster solutions they 
 are currently lacking standards to document and validate their schemas. Understanding the schema of Loom, Scanpy, or 
-Suerat often requires reading objects into memory and manually investigating their annotation fields. These types of objects 
-are very good at "it just works" analysis pipelines, but problems with interoperability commonly arise due to a lack of 
-standardization in their structure.
+Suerat often requires reading objects into memory and manually investigating their annotation fields. Another deficit that acts as a strength in different context is these files attempt to carry all the information about the experiment, individual formats specifications on top of the solution will be needed for many applications. In general these methods are very good at "it just works" analysis pipelines, but problems with interoperability commonly arise due to a lack of standardization in their structure.
 
 While json provides modeling of metadata and standards for documenting and validating the schemas, it requires knowledge
 of the schema to transform the information into data structures ready for comparative analysis and visualization. This 
