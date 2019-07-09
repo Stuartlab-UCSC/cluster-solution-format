@@ -12,7 +12,7 @@ Along with metadata about the cluster solution, 3 major types of information can
 	
   * cell assignments: The categorical (or probabilistic) assignment of cells to clusters, i.e. the output of a cluster algorithm.
   *	markers: Arbitrary metrics for genes as markers that identify individual clusters.
-  *	cell type annotation: A label that maps a cluster to a cell type.  
+  *	cell type annotation: A label that maps a cluster to a cell type. Ideally this would be a valid cell ontology annotation, but realisticly might be an after thought for an analyst. 
 
 The cell assignments field is the only information required for a valid cluster solution json object.
 
